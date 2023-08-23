@@ -40,7 +40,7 @@ Prérequis:
 1. Connaissance de fichier CSV,shapefile et leur manipulation
 2. Comprendre ce qu'est docker et docker-compose
 3. Python et SQL intermédiaires
-4. Une compréhension de base d'Airflow [this](https://www.youtube.com/watch?v=AHMm1wfGuHE&t=705s) ça peut aider.
+4. Une compréhension de base d'Airflow [cette video](https://www.youtube.com/watch?v=AHMm1wfGuHE&t=705s) ça peut aider.
 
 ## extract.py
 
