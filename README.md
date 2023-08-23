@@ -55,22 +55,10 @@ Ici, nous exportons le fichier d'extraction pour obtenir les données pour conna
 
 **def transform_df(load_df):** et **def transform_df_1(load_df_1):** Maintenant, nous écrivons une logique selon notre exigence ici. Nous pretraitons les données,nous supprimons les variables a valeurs manquantes.
 
-## load_sqlite.py et ## load_postgres.py
+## load_sqlite.py et load_postgres.py
 
 Dans l'étape de chargement load, nous utilisons sqlalchemy, SQLite et postgreSQL pour charger nos données (ingestion de donnée) et enregistrer les données  dans la base de donnée postgresql.
 
-Enfin, nous avons terminé avec succès notre pipeline ETL. La structure du dossier du projet devrait ressembler à ceci.
-
-C:\Users\ZIE MAMADOU\Desktop\etl
-│ extract.py
-│ transform.py
-│ pollution.sqlite
-  georef.sqlite
-│ data_etl.py
-│ load_sqlite.py
-  load_postgres.py
-  pollution_test.ipynb
-└───
 
 Après avoir exécuté **load_sqlite.py** et **load_postgres.py**, 
 - on peut voir qu'un fichier .sqlite est  dans le dossier du projet.pour vérifier les données à l'intérieur de l'en-tête du fichier, nous avons utiliser le notebook **pollution_test.ipynb** pour lire le ficher et avoir accès à la base donnée.
@@ -108,15 +96,6 @@ python load_postgres.py
 après avoir construit notre ETL, nous voulons l'automatiser par le biais d'apache airflow avec une orchestration.
 
 
-En effet notre dossier Airflow devrait ressembler à la structure ci-dessous.
-
-C:\Users\ZIE MAMADOU\Desktop\etl
-│ docker-compose.yml
-├───dags
-│ │ etl_dags.py
-├───data
-├───logs
-└───plugins
 
 Maintenant que nous avons configuré airflow et lancé le docker_compose, nous pouvons afficher l'interface utilisateur d'airflow en visitant le [port 8080] (http://localhost:8080/). Le nom d'utilisateur et le mot de passe seraient airflow.
 
@@ -174,7 +153,7 @@ Pour la qualité de donnée, s'il y'a des valeurs manquantes on saura depuis le 
 
 ![](image/log_etl.png)
 
-## AFFICHAGE DE LA DATA DEPUIS L4ENVIRONNEMENT DOCKER
+## AFFICHAGE DE LA DATA DEPUIS L'ENVIRONNEMENT DOCKER
 
 Pour avoir accès à la base de donnée posgresql,nous devons proceder comme suite:
 
