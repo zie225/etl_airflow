@@ -29,7 +29,7 @@ Le deploiement des conteneurs docker compose est requis pour avoir accès à pg 
 
 Tech Stack / Compétence utilisée :
 1.  Python
-2.  fichier CSV,shapefile et leur manaipulation
+2.  fichier CSV,shapefile et leur manipulation
 3.  Docker
 4.  PostgreSQL,Sqlite
 5.  Apache Airflow 
