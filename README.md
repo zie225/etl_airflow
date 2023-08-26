@@ -182,7 +182,7 @@ pd.read_sql('SELECT * FROM georef_data', engine)
 ![](image/resultat_env_docker_poll_data.png)
 
 
-![](image/resultat_env_docker_poll_data.png)
+![](image/resultat_env_docker_georef_data.png)
 
 
 ## AUTEUR
