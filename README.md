@@ -14,7 +14,7 @@ Start a :
 ```shell
 docker-compose -f docker-compose.yml up -d
 ```
-down a (Stop):
+down a ( Stop ):
   - docker
 ```shell
 docker-compose down
