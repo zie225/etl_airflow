@@ -184,6 +184,11 @@ pd.read_sql('SELECT * FROM georef_data', engine)
 
 ![](image/resultat_env_docker_georef_data.png)
 
+## TRAVAIL FUTURISTE
+
+Notre future travail consistera à faire du controle de version de notre infractructure **(ETL+AIRFLOW)** depuis Github ou Gitlab en construisant un pipeline versioné et maintainable avec **Jenkins** ou **GIthub action** ou **GitlabCI** pour **l'integration continue** et **livraison continue** ( **CI/CD** ).
+On aura alors la compilation du code source ensuite des tests unitaire,d'integration et enfin la mise en production.
+
 
 ## AUTEUR
 
