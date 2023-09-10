@@ -134,7 +134,7 @@ Nous pouvons voir dans la partie entouré en noir le succès d'orchestration.
 
 Il y'a succés quand il n'ya pas d'erreur dans le code et que l'execution est sans defaut.
 
-Nous devons le verifier dans le LOG pour verifier les reponses de l'execution.
+Nous devons le verifier dans le LOG pour verifier les reponses de l'execution,le LOG nous sert du monitoring de notre execution.
 
 
 2. LOG
