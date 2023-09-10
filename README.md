@@ -63,7 +63,7 @@ Dans l'étape de chargement load, nous utilisons sqlalchemy, SQLite et postgreSQ
 Après avoir exécuté **load_sqlite.py** et **load_postgres.py**, 
 - on peut voir qu'un fichier .sqlite est  dans le dossier du projet.pour vérifier les données à l'intérieur de l'en-tête du fichier, nous avons utiliser le notebook **pollution_test.ipynb** pour lire le ficher et avoir accès à la base donnée.
 
-- on peut voir que les fichier CSV et SHP sont ingerés dans la base de donnée postgreSQL. 
+- on peut voir que les fichiers CSV et SHP sont ingerés dans la base de donnée postgreSQL. 
 
 ## EXECUTION DE load_sqlite.py et load_postgres.py depuis la commande
 
