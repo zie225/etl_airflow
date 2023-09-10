@@ -1,8 +1,8 @@
 
 
-Créer un pipeline Extract Transform Load(ETL) à l'aide de python et automatiser avec airflow, prefect, kafka ou le deployer avec gitlab,github action.
+Créer un pipeline Extract Transform Load(ETL) à l'aide de python et automatiser avec airflow, prefect, kafka ou le deployer avec gitlab,github action,Jenkins pour le versioning.
 
-Nous avons le fichier pollution_test.ipynb qui ne passe pas par la phase de l'automatisation, une des raisons que nous utilisons le pipeline etl à l'aide de script python pour rendre le pipeline scalable.
+Nous avons le fichier pollution_test.ipynb qui ne passe pas par la phase de l'automatisation, une des raisons que nous utilisons le pipeline etl à l'aide de script python pour rendre le pipeline scalable et maintainable.
 
 ![](image/chart.png)
 
